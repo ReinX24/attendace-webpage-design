@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Application</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex flex-column justify-content-center align-items-center p-2 my-4 mx-2 bg-light-subtle rounded-4">
+            <div class="m-2 border bg-light p-4 rounded-5">
+                <h1>Find schedules by block</h1>
+                <div class="mb-3">
+                    <label for="blockSearch" class="form-label fs-5">Enter Block (Ex. 22-ITE-01)</label>
+                    <input type="text" name="blockSearch" class="form-control form-control-lg" />
+                    <button class="btn btn-primary btn-lg mt-2 w-100"><i class="bi bi-search"></i></button>
+                </div>
+
+                <div class="mb-3">
+                    <div class="alert alert-info fs-5">
+                        Schedules for block not found.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

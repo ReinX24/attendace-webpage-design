@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  // Student will be the selected default
   $("#adminMessage").hide();
   $("#professorMessage").hide();
 
