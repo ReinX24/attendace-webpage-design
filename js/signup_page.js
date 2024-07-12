@@ -16,7 +16,7 @@ $(document).ready(function () {
       $("#professorMessage").hide();
 
       // Show and hide fields depending on role
-      $("#studenIdField").show();
+      $("#studentIdField").show();
       $("#programField").show();
 
       $("#professorTokenField").hide();
