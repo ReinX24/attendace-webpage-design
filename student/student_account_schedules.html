@@ -39,15 +39,14 @@
                             <div class="d-flex justify-content-between align-items-center gap-4">
                                 <div>
                                     <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">Integrative Programming</h5>
+                                        <h5 class="mb-1">Integrative Programming (ITP07)</h5>
                                     </div>
-                                    <!-- <p class="mb-1">8 A.M. - 10 A.M.</p>
-                                    <small>M, W, F</small> -->
                                 </div>
                                 <div class="d-flex gap-2">
                                     <!-- TODO: add info page containing days and times -->
-                                    <button class="btn btn-secondary"><i class="bi bi-info-circle"></i></button>
-                                    <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+                                    <!-- Info button trigger -->
+                                    <button type="button" class="btn btn-secondary btn-lg w-50"><i class="bi bi-info-circle"></i></button>
+                                    <button type="button" class="btn btn-danger btn-lg w-50" data-bs-toggle="modal" data-bs-target="#deleteIntegrative"><i class="bi bi-x-circle"></i></button>
                                 </div>
                             </div>
                         </a>
@@ -56,27 +55,12 @@
                             <div class="d-flex justify-content-between align-items-center gap-4">
                                 <div>
                                     <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">Quantitative Methods</h5>
+                                        <h5 class="mb-1">Netcentric Fundamentals (CSP07)</h5>
                                     </div>
                                 </div>
                                 <div class="d-flex gap-2">
-                                    <button class="btn btn-secondary"><i class="bi bi-info-circle"></i></button>
-                                    <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="#" class="list-group-item list-group-item-action">
-
-                            <div class="d-flex justify-content-between align-items-center gap-4">
-                                <div class="d-flex gap-2">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">Information Management</h5>
-                                    </div>
-                                </div>
-                                <div class="d-flex gap-2">
-                                    <button class="btn btn-secondary"><i class="bi bi-info-circle"></i></button>
-                                    <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+                                    <button type="button" class="btn btn-secondary btn-lg w-50"><i class="bi bi-info-circle"></i></button>
+                                    <button type="button" class="btn btn-danger btn-lg w-50"><i class="bi bi-x-circle"></i></button>
                                 </div>
                             </div>
                         </a>
@@ -85,12 +69,27 @@
                             <div class="d-flex justify-content-between align-items-center gap-4">
                                 <div>
                                     <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">Netcentric Fundamentals</h5>
+                                        <h5 class="mb-1">Quantitative Methods (ITP06)</h5>
                                     </div>
                                 </div>
                                 <div class="d-flex gap-2">
-                                    <button class="btn btn-secondary"><i class="bi bi-info-circle"></i></button>
-                                    <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+                                    <button type="button" class="btn btn-secondary btn-lg w-50"><i class="bi bi-info-circle"></i></button>
+                                    <button type="button" class="btn btn-danger btn-lg w-50"><i class="bi bi-x-circle"></i></button>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="list-group-item list-group-item-action">
+
+                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                <div class="d-flex gap-2">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Information Management (ITC05)</h5>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <button type="button" class="btn btn-secondary btn-lg w-50"><i class="bi bi-info-circle"></i></button>
+                                    <button type="button" class="btn btn-danger btn-lg w-50"><i class="bi bi-x-circle"></i></button>
                                 </div>
                             </div>
                         </a>
@@ -101,6 +100,26 @@
             </div> <!-- Container that cotains the main content -->
         </div>
     </div>
+
+    <!-- Delete modal -->
+    <div class="modal fade" id="deleteIntegrative" tabindex="-1" aria-labelledby="deleteIntegrativeLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="deleteIntegrativeLabel">Confirm Delete</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fs-5">
+                    Delete Integrative Programming from schedules?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary btn-lg">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of delete modal -->
 
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>

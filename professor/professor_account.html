@@ -18,7 +18,10 @@
                 <h1 class="text-center">Jillian Doe</h1>
 
                 <div class="mb-3 d-flex justify-content-center gap-2">
-                    <button class="btn btn-danger btn-lg mw-100">Logout</button>
+                    <!-- Logout button trigger -->
+                    <button type="button" class="btn btn-danger btn-lg mw-100" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                        Logout
+                    </button>
                 </div>
 
                 <hr>
@@ -81,6 +84,9 @@
 
                             </div>
                         </div>
+
+                        <!-- Classes pane -->
+
                         <div class="tab-pane fade" id="pills-classes" aria-labelledby="pills-classes-tab" tabindex="0">
                             <div class="d-flex flex-column">
                                 <!-- Show classes content -->
@@ -93,52 +99,50 @@
                                             <div class="d-flex justify-content-between align-items-center gap-4">
                                                 <div>
                                                     <div class="d-flex w-100 justify-content-between">
-                                                        <h5 class="mb-1">Integrative Programming</h5>
+                                                        <h5 class="mb-1">Integrative Programming (ITP07)</h5>
                                                     </div>
                                                     <p class="mb-1">22-ITE-01</p>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-center gap-2">
-                                                <form action="professor_class_edit.html" method="GET" class="w-50">
-                                                    <button type="submit" class="btn btn-primary btn-lg w-100">Edit</button>
+                                            <div class="d-flex">
+                                                <form action="professor_class_edit.html" method="GET" class="w-100">
+                                                    <button type="submit" class="btn btn-secondary btn-lg w-100">Edit</button>
                                                 </form>
-                                                <button class="btn btn-danger btn-lg w-50">Delete</button>
+                                                <!-- TODO: add link going to class students page -->
                                             </div>
                                         </a>
                                         <a href="#" class="list-group-item list-group-item-action">
                                             <div class="d-flex justify-content-between align-items-center gap-4">
                                                 <div>
                                                     <div class="d-flex w-100 justify-content-between">
-                                                        <h5 class="mb-1">Integrative Programming</h5>
+                                                        <h5 class="mb-1">Integrative Programming (ITP07)</h5>
                                                     </div>
                                                     <p class="mb-1">22-ITE-02</p>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-center gap-2">
-                                                <form action="professor_class_edit.html" method="GET" class="w-50">
-                                                    <button type="submit" class="btn btn-primary btn-lg w-100">Edit</button>
+                                            <div class="d-flex">
+                                                <form action="professor_class_edit.html" method="GET" class="w-100">
+                                                    <button type="submit" class="btn btn-secondary btn-lg w-100">Edit</button>
                                                 </form>
-                                                <button class="btn btn-danger btn-lg w-50">Delete</button>
                                             </div>
                                         </a>
                                         <a href="#" class="list-group-item list-group-item-action">
                                             <div class="d-flex align-items-center gap-4">
                                                 <div>
                                                     <div class="d-flex w-100 justify-content-between">
-                                                        <h5 class="mb-1">Programming 2</h5>
+                                                        <h5 class="mb-1">Programming 2 (ITC03)</h5>
                                                     </div>
                                                     <p class="mb-1">12-ITE-02</p>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-center gap-2">
-                                                <form action="professor_class_edit.html" method="GET" class="w-50">
-                                                    <button type="submit" class="btn btn-primary btn-lg w-100">Edit</button>
+                                            <div class="d-flex">
+                                                <form action="professor_class_edit.html" method="GET" class="w-100">
+                                                    <button type="submit" class="btn btn-secondary btn-lg w-100">Edit</button>
                                                 </form>
-                                                <button class="btn btn-danger btn-lg w-50">Delete</button>
                                             </div>
                                         </a>
                                     </div>
-                                </div> <!-- End of events list container -->
+                                </div> <!-- End of classes list container -->
 
                             </div>
                         </div>
@@ -147,6 +151,25 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+
+    <!-- Logout modal -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="logoutModalLabel">Logout Account</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fs-5">
+                    Are you sure you want to logout?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary btn-lg">Logout</button>
+                </div>
+            </div>
         </div>
     </div>
 
