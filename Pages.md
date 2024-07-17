@@ -24,8 +24,14 @@
 
 [professor_account](professor/professor_account.html)
 
-// TODO: add event creation here
+[professor_event_request](professor/professor_event_request.html)
+
+[professor_event_details](professor/professor_event_details.html)
 
 [professor_class_create](professor/professor_class_create.html)
 
 [professor_class_edit](professor/professor_class_edit.html)
+
+[professor_class_students](professor/professor_class_students.html)
+
+## Admin Pages
