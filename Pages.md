@@ -35,3 +35,5 @@
 [professor_class_students](professor/professor_class_students.html)
 
 ## Admin Pages
+
+[admin_account](admin/admin_account.html)
