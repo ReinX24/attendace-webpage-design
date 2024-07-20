@@ -23,6 +23,8 @@
 
                 <!-- Logout button -->
                 <div class="mb-2 d-flex justify-content-center gap-2">
+                    <!-- Filter students by their block and date -->
+                    <a href="" class="btn btn-primary btn-lg">Filter</a>
                     <!-- Logout button trigger -->
                     <button type="button" class="btn btn-danger btn-lg mw-100" data-bs-toggle="modal"
                         data-bs-target="#logoutModal">
@@ -62,9 +64,7 @@
 
                                 <div class="my-3">
                                     <div class="list-group">
-                                        <!-- TODO: add details for event, shows event info and students currently attending -->
-                                        <a href="professor_event_details.html"
-                                            class="list-group-item list-group-item-action">
+                                        <a href="admin_event_info.html" class="list-group-item list-group-item-action">
                                             <div class="d-flex justify-content-between align-items-center gap-4">
                                                 <div>
                                                     <div class="d-flex w-100 justify-content-between">
@@ -161,13 +161,10 @@
                             <div class="d-flex flex-column">
                                 <!-- Show classes content -->
                                 <p class="fs-5 text-center">Requests</p>
-                                <!-- <a href="professor_class_create.html" class="btn btn-primary btn-lg mw-100">Create
-                                    Class</a> -->
 
                                 <div class="my-3">
                                     <div class="list-group">
-                                        <!-- TODO: go to page where showing request details -->
-                                        <a href="professor_event_details.html"
+                                        <a href="admin_request_info.html"
                                             class="list-group-item list-group-item-action">
                                             <div class="d-flex justify-content-between align-items-center gap-4">
                                                 <div>
@@ -190,7 +187,7 @@
                                                     </button>
                                                 </form>
                                                 <form action="professor_class_students.html" method="GET" class="w-100">
-                                                    <button type="submit" class="btn btn-danger btn-lg w-100">
+                                                    <button type="submit" class="btn btn-secondary btn-lg w-100">
                                                         Dismiss
                                                     </button>
                                                 </form>
@@ -220,7 +217,7 @@
                                                     </button>
                                                 </form>
                                                 <form action="professor_class_students.html" method="GET" class="w-100">
-                                                    <button type="submit" class="btn btn-danger btn-lg w-100">
+                                                    <button type="submit" class="btn btn-secondary btn-lg w-100">
                                                         Dismiss
                                                     </button>
                                                 </form>
@@ -250,7 +247,7 @@
                                                     </button>
                                                 </form>
                                                 <form action="professor_class_students.html" method="GET" class="w-100">
-                                                    <button type="submit" class="btn btn-danger btn-lg w-100">
+                                                    <button type="submit" class="btn btn-secondary btn-lg w-100">
                                                         Dismiss
                                                     </button>
                                                 </form>

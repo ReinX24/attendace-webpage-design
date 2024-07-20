@@ -37,3 +37,11 @@
 ## Admin Pages
 
 [admin_account](admin/admin_account.html)
+
+[admin_create_event](admin/admin_event_create.html)
+
+[admin_event_info](admin/admin_event_info.html)
+
+[admin_event_edit](admin/admin_event_edit.html)
+
+[admin_scan_qr](admin/admin_scan_qr.html)
