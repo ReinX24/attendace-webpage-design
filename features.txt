@@ -1,0 +1,32 @@
+# Features Checklist for app (from google doc)
+
+## Students
+* Edit and view data about his/her account, can only edit schedules. TODO: add irregular status
+* View information account and QR code (contains name, ID number, Program, Current Schedule).
+* Select existing subject schedules created by professors. DONE: schedule recording, subject should be dropdown (changed to checkbox)
+* Can download QR code containing their information.
+* Can filter subjects by block/s, show all classes in the chosen block.
+* Can join or add the class to their schedules. TODO: recorded schedules should be below the QR code
+* Sign up account (Role), Student (Name, Student ID, and Program), and Professor (Name, Token (generated and stored by Admin). Passwords and Confirm Passwords are needed for each account.
+
+## Professors
+* Can view subjects being handled by the professor.
+* Can view a list of events per subject.
+* Blocks per event will be listed.
+* List of names per block recorded for the event.
+* Can unenroll students from their class.
+* Summary of attendees and absentees.
+* Professors should be able to create their own subject / classes.
+* Request event creation. TODO: change where professors request event creation to admin
+* Attendances are only valid for 1 day / 24 hours. TODO: remove start and end times
+* Professors should be able to create their own subject / classes.
+* Set time and days for their classes.
+* Set blocks for their classes.
+
+## Admins
+TODO: check admin pages
+Has the ability to access every part of the application.
+Can create events.
+Can approve requested events.
+Can scan QR code to record attendances.
+Student verification prompt confirmation. DONE: remove block and add photo

@@ -26,6 +26,10 @@
                     <button class="btn btn-danger btn-lg w-50">Logout</button>
                 </div>
 
+                <div class="d-flex mb-3">
+                    <a href="student_account_info.html" class="btn btn-secondary btn-lg w-100">Account Info</a>
+                </div>
+
                 <hr>
 
                 <div class="mb-3">
@@ -35,29 +39,46 @@
                         <button class="btn btn-outline-primary btn-lg">Add Schedule</button>
                     </div>
 
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Filter by block
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">22-ITE-01</a></li>
+                                <li><a class="dropdown-item" href="#">22-ITE-02</a></li>
+                                <li><a class="dropdown-item" href="#">32-ITE-02</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
                     <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action">
+                        <div href="" class="list-group-item list-group-item-action">
                             <div class="d-flex justify-content-between align-items-center gap-4">
                                 <div>
-                                    <div class="d-flex w-100 justify-content-between">
+                                    <div class="d-flex flex-column w-100 justify-content-between">
                                         <h5 class="mb-1">Integrative Programming (ITP07)</h5>
+                                        <span class="fs-5">22-ITE-01</span>
                                     </div>
                                 </div>
                                 <div class="d-flex gap-2">
                                     <!-- Info button trigger -->
-                                    <button type="button" class="btn btn-secondary btn-lg w-50"><i
-                                            class="bi bi-info-circle"></i></button>
+                                    <a href="student_schedule_info.html" class="btn btn-secondary btn-lg">
+                                        <i class="bi bi-info-circle"></i>
+                                    </a>
                                     <button type="button" class="btn btn-danger btn-lg w-50" data-bs-toggle="modal"
                                         data-bs-target="#deleteIntegrative"><i class="bi bi-x-circle"></i></button>
                                 </div>
                             </div>
-                        </a>
+                        </div>
 
                         <a href="#" class="list-group-item list-group-item-action">
                             <div class="d-flex justify-content-between align-items-center gap-4">
                                 <div>
-                                    <div class="d-flex w-100 justify-content-between">
+                                    <div class="d-flex flex-column w-100 justify-content-between">
                                         <h5 class="mb-1">Netcentric Fundamentals (CSP07)</h5>
+                                        <span class="fs-5">22-ITE-01</span>
                                     </div>
                                 </div>
                                 <div class="d-flex gap-2">
@@ -72,8 +93,9 @@
                         <a href="#" class="list-group-item list-group-item-action">
                             <div class="d-flex justify-content-between align-items-center gap-4">
                                 <div>
-                                    <div class="d-flex w-100 justify-content-between">
+                                    <div class="d-flex flex-column w-100 justify-content-between">
                                         <h5 class="mb-1">Quantitative Methods (ITP06)</h5>
+                                        <span class="fs-5">22-ITE-02</span>
                                     </div>
                                 </div>
                                 <div class="d-flex gap-2">
@@ -86,11 +108,28 @@
                         </a>
 
                         <a href="#" class="list-group-item list-group-item-action">
-
                             <div class="d-flex justify-content-between align-items-center gap-4">
                                 <div class="d-flex gap-2">
-                                    <div class="d-flex w-100 justify-content-between">
+                                    <div class="d-flex flex-column w-100 justify-content-between">
                                         <h5 class="mb-1">Information Management (ITC05)</h5>
+                                        <span class="fs-5">22-ITE-02</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <button type="button" class="btn btn-secondary btn-lg w-50"><i
+                                            class="bi bi-info-circle"></i></button>
+                                    <button type="button" class="btn btn-danger btn-lg w-50"><i
+                                            class="bi bi-x-circle"></i></button>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                <div class="d-flex gap-2">
+                                    <div class="d-flex flex-column w-100 justify-content-between">
+                                        <h5 class="mb-1">IT Elective 02 (ITE02)</h5>
+                                        <span class="fs-5">32-ITE-02</span>
                                     </div>
                                 </div>
                                 <div class="d-flex gap-2">
