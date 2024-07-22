@@ -45,3 +45,11 @@
 [admin_event_edit](admin/admin_event_edit.html)
 
 [admin_scan_qr](admin/admin_scan_qr.html)
+
+[admin_request_info](admin/admin_request_info.html)
+
+[admin_filter](admin/admin_filter.html)
+
+[admin_filter_name](admin/admin_filter_name.html)
+
+[admin_filter_date](admin/admin_filter_date.html)

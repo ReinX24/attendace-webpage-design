@@ -24,9 +24,8 @@
 * Set blocks for their classes.
 
 ## Admins
-TODO: check admin pages
-Has the ability to access every part of the application.
-Can create events.
-Can approve requested events.
-Can scan QR code to record attendances.
-Student verification prompt confirmation. DONE: remove block and add photo
+* Has the ability to access every part of the application.
+* Can create events.
+* Can approve requested events.
+* Can scan QR code to record attendances.
+* Student verification prompt confirmation. DONE: remove block and add photo
