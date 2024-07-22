@@ -15,11 +15,14 @@
             class="d-flex flex-column justify-content-center align-items-center p-2 my-4 mx-2 bg-light-subtle rounded-4">
 
             <div>
-                <p class="fs-4 fw-bold">Scan QR Code</p>
+                <p class="fs-4 fw-bold">Enter Student ID</p>
             </div>
 
-            <div class="bg-secondary-subtle border rounded-5">
-                <img src="../images/scan-qr.png" class="w-100">
+            <p>Enter student ID to record attendance.</p>
+
+            <div class="mb-3">
+                <label for="student_id" class="form-label fs-5">Student ID</label>
+                <input type="text" class="form-control form-control-lg">
             </div>
 
             <div class="d-grid gap-2 my-3 w-100">
@@ -27,7 +30,7 @@
                     <!-- Delete event trigger -->
                     <button type="button" class="btn btn-primary btn-lg w-100" data-bs-toggle="modal"
                         data-bs-target="#scanQrModal">
-                        <i class="bi bi-camera"></i> SCAN
+                        <i class="bi bi-search"></i> FIND
                     </button>
                 </div>
                 <button type="button" class="btn btn-secondary btn-lg"><i class="bi bi-arrow-left-circle"></i>
@@ -36,7 +39,7 @@
         </div>
     </div>
 
-    <!-- Scan QR modal -->
+    <!-- Student ID modal -->
     <div class="modal fade" id="scanQrModal" tabindex="-1" aria-labelledby="scanQrModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
