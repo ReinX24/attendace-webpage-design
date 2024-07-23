@@ -35,13 +35,17 @@ Student account info page, where they can see their photo, name, student ID,
 program, status (regular or irregular), and existing enrolled classes and
 blocks.
 
+[student_account_info](student/student_account_info.html)
+
+They could also view information regarding the schedule of their class.
+
 [student_schedule_info](student/student_schedule_info.html)
 
 The students could add their schedules by searching for specific blocks.
 
 [add_schedule_block](student/add_schedule_block.html)
 
-After entering a certain block, they could enroll for that class that is within
+After entering a certain block, they could enroll in that class that is within
 that block.
 
 [add_schedule_found](student/add_schedule_found.html)
@@ -54,8 +58,9 @@ could be recorded for various events.
 ## Professor Pages
 
 If the user logs in as a professor, they will be shown their photo, name,
-current events, their classes, and more.
+current events, classes, and more.
 
+2 Pages: Events and Classes
 [professor_account](professor/professor_account.html)
 
 The professor could request to create an event, this request will be approved
@@ -69,8 +74,8 @@ the event, they could see the current attendees and the absentees.
 [professor_event_details](professor/professor_event_details.html)
 
 The professor can create their own classes. To create a class the professor
-needs to provide a Subject Code, Description, Block for the class. They could
-also set which days and which rooms their classes will take place.
+needs to provide a Subject Code, Description, and Block for the class. They
+could also set which days and which rooms their classes will take place.
 
 [professor_class_create](professor/professor_class_create.html)
 
@@ -90,6 +95,7 @@ If the user decides to enter as an admin account, they will be greeted with the
 admin dashboard. It will show them the current events, requests for events, and
 more.
 
+2 Pages: Events and Requests
 [admin_account](admin/admin_account.html)
 
 Admins could create event, they could set the event name, subject code for the
