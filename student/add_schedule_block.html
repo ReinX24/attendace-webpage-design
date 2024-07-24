@@ -11,13 +11,17 @@
 
 <body>
     <div class="container">
-        <div class="d-flex flex-column justify-content-center align-items-center p-2 my-4 mx-2 bg-light-subtle rounded-4">
+        <div
+            class="d-flex flex-column justify-content-center align-items-center p-2 my-4 mx-2 bg-light-subtle rounded-4">
             <div class="m-2 border bg-light p-4 rounded-5">
                 <h1>Find schedules by block</h1>
                 <div class="mb-3">
                     <label for="blockSearch" class="form-label fs-5">Enter Block (Ex. 22-ITE-01)</label>
                     <input type="text" name="blockSearch" class="form-control form-control-lg" />
-                    <button class="btn btn-primary btn-lg mt-2 w-100"><i class="bi bi-search"></i></button>
+                    <div class="d-flex justify-content-between gap-2">
+                        <button class="btn btn-primary btn-lg mt-2 w-50"><i class="bi bi-search"></i></button>
+                        <button class="btn btn-secondary btn-lg mt-2 w-50">Back</button>
+                    </div>
                 </div>
 
                 <div class="mb-3">
@@ -30,7 +34,8 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
